@@ -1,10 +1,9 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-I was tasked with helping a playwright launch a crowdfunding campaign for her new play by analyzing Kickstarter data. Her budget was $10,000, and she needed my help to find factors that might improve her chance of success. The analysis was executed with pivot tables in Microsoft Excel.
-
+Microsoft Excel is a simple, yet powerful tool for organizing, cleaning, and analyzing large datasets. In this mini-project, I took a sample dataset and applied concepts like filters, pivot tables, and measures of central tendency to discover complex relationships.
 ### Purpose
-
+I was tasked with helping a playwright launch a crowdfunding campaign for her new play by organizing and analyzing raw Kickstarter data containing funding goals, pledge amounts, launch dates, project category, and other information. Her budget was $10,000, and she needed my help to find factors that might improve her chance of success.
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
