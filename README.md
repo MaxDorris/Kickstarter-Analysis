@@ -1,2 +1,2 @@
 # Kickstarter-Analysis-Report
-W1 of Vanderbilt Data Analytics Bootcamp
+Vanderbilt Data Analytics W1 Project: Analyzed Kickstarter to discover trends
