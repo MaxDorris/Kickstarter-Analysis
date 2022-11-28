@@ -1,7 +1,6 @@
 # Kickstarting with Excel
 
 ## Overview of Project
----
 I was tasked with helping a playwright launch a crowdfunding campaign for her new play by analyzing Kickstarter data. Her budget was $10,000, and she needed my help to find factors that might improve her chance of success. The analysis was executed with pivot tables in Microsoft Excel.
 
 ### Purpose
