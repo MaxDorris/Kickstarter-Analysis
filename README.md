@@ -26,7 +26,7 @@ This example pulls an integer value representing the number of successful plays 
 ### Analysis of Outcomes Based on Launch Date
 After initializing the dataset, I created a pivot table to focus on important data for the playwright's campaign. By grouping theater fundraising outcomes by the month they were launched in, I was able to observe the success rate of the relavent campaigns in the context of timing. This visulization could help the playwright figure out which months of the year would maximize her likelihood for reaching her $10,000 goal. By importing the **Parent Category** and **Years** columns into the *Filters* field, the **Outcomes** column in to the *Columns* field, the **Date Created Conversion** column into the *Rows* field, and the **Outcomes** column in the *Values* field, Table 1 (below) was created.
 
-![Table 1: Theater Outcomes - Launch Date Pivot Table](https://myoctocat.com/assets/images/base-octocat.svg)
+![Table 1: Theater Outcomes - Launch Date Pivot Table](/assets/images/Launch Pivot.png)
 
 I then created the chart below using Excel's *Pivot Chart* tool. 
 
