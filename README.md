@@ -24,25 +24,25 @@ By observing the months in which successful Kickstarter campaigns began, the pla
 This example pulls an integer value representing the number of successful plays there were that had a fundraising goal less than $1000.
 
 ### Analysis of Outcomes Based on Launch Date
-After initializing the dataset, I created a pivot table to focus on important data for the playwright's campaign. By grouping theater fundraising outcomes by the month they were launched in, I was able to observe the success rate of the relavent campaigns in the context of timing. This visulization could help the playwright figure out which months of the year would maximize her likelihood for reaching her $10,000 goal. By importing the **Parent Category** and **Years** columns into the *Filters* field, the **Outcomes** column in to the *Columns* field, the **Date Created Conversion** column into the *Rows* field, and the **Outcomes** column in the *Values* field, Table 1 (below) was created.
+After initializing the dataset, I created a pivot table to focus on important data for the playwright's campaign. By grouping theater fundraising outcomes by the month in which they were launched, I could observe the success rate of the relavent campaigns in the context of timing. This visulization could help the playwright figure out which months of the year would maximize her likelihood for reaching her $10,000 goal. By importing the **Parent Category** and **Years** columns into the *Filters* field, the **Outcomes** column in to the *Columns* field, the **Date Created Conversion** column into the *Rows* field, and the **Outcomes** column in the *Values* field, Table 1 (below) was populated.
 
 ![Table 1: Theater Outcomes - Launch Date Pivot Table](Launch_Pivot.png)
 
-I then created the chart below using Excel's *Pivot Chart* tool. 
+I then created the chart in Figure 1 using Excel's *Pivot Chart* tool. 
 
 ![Figure 1: Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
-By grouping the number of each fundraising outcome within a range of goal amounts, the playwright could gain a etter understanding of whether she needs to reconsider her current budget before starting her campaign. After creating a new sheet and using the COUNTIF() formula to count each play fundraiser outcome within varying goal ranges, I calulated the percentage of the total number of play campaigns for each goal range that were successful, failed, or were canceled in three new columns. I then plotted these three columns aginst the goal ranges:
+By grouping the number of each fundraising outcome within a range of goal amounts, the playwright could gain a better understanding of whether she needed to reconsider her current budget before starting the campaign. After creating a new sheet and using the COUNTIF() formula to count each play fundraiser outcome within varying goal ranges, I calulated the percentage of the total number of play campaigns for each goal range that were successful, failed, or were canceled in three new columns. I then plotted these three columns aginst the goal ranges:
 
 ![Figure 2: Outcomes Based on Goals](Outcomes_vs_Goals.png)
 
-I also noticed that, given that no plays were canceled, the canceled line remains at 0% for each goal range. This is not necessarily a problem in my case, but if significantly more plays *were* canceled, the chart would be a lot less helpful for our dear playwright. Failure means that a goal was not hit, and success means the goal was hit. However, cancellation does not necessarily mean that the reason for ceasing the campaign was financial... Fortunately our data did not have this problem, or else a deeper investigation would have been necessary.
+I also noticed that, given that no plays were canceled, the canceled percentage line remains at 0% for each goal range. This is not necessarily a problem in this case, but if significantly more plays *were* canceled, the chart would be a lot less helpful for our dear playwright. Failure means that a goal was not hit, and success means the goal was hit. However, cancellation means that the reason for ceasing the campaign was not funding-based... meaning the playwright would not be able to determine the reason for cancellation (a non-success) via this dataset. Fortunately our data did not have this, or else a deeper investigation would have been necessary.
 
 
 ### Challenges and Difficulties Encountered
-One issue I came across when creating Table 1 was that I had a row and column each marked "[blank]" when the Kickstarter data was first imported into the pivot table sheet. Adding the dropdown filters thankfully allowed easy removal of these irrelevant groups. I also noticed that, given no plays were canceled, the percentage canceled line remains at zero for each goal range. This is not necessarily a problem in my case, but if significantly more plays *were* canceled, the chart would be a lot less helpful for our dear playwright. Failure means that a goal was not hit, and success means the goal was hit. However, cancellation does not necessarily mean that the reason for ceasing the campaign was financial... Fortunately our data did not have this problem, or else a deeper investigation would have been necessary.
+One issue I came across when creating Table 1 was that I had a row and column each marked "[blank]" when the Kickstarter data was first imported into the pivot table sheet. Adding the dropdown filters thankfully allowed easy removal of these irrelevant groups. I also noticed that, given that no plays were canceled, the canceled percentage line remains at 0% for each goal range. This is not necessarily a problem in this case, but if significantly more plays *were* canceled, the chart would be a lot less helpful for our dear playwright. Failure means that a goal was not hit, and success means the goal was hit. However, cancellation means that the reason for ceasing the campaign was not funding-based... meaning the playwright would not be able to determine the reason for cancellation (a non-success) via this dataset. Fortunately our data did not have this, or else a deeper investigation would have been necessary.
 
 ## Results
 
@@ -51,12 +51,13 @@ One issue I came across when creating Table 1 was that I had a row and column ea
 - Based on the same tactic, the worst months to launch would be October and December.
 
 ### Outcomes Based on Goals Conclusion
-- The highest percentage of successful plays spent between $25,000 to $34,999 and $45,000+, with the most successful range being $45,000 to $49,999. The playwright should consider raising more than $10,000 to ensure a higher likelihood of success.
+- The highest percentage of successful plays spent between the <$5,000 and the $35,000 to $44,999 ranges, with the most successful range being the <$1,000 range. The playwright should consider reducing her budget estimate to <$5,000 or attempt to shoot for a higher goal of $35,000 to $44,999 to ensure a higher likelihood of success.
 
 ### Limitations of the Dataset
-- The data does not include production revenue. This could help her optimize fundraising amount for profit, if she's into that.
+- The data does not include production revenue. This could help her optimize fundraising amount for maximum production revenue... if she's into that.
 - Average age of backers or any info about backers would be extremely helpful for how she chooses to plug and advertise the campaign on social media or locally.
 
 ### Other Possible Tables and Graphs
-- Outcome Percentages vs. Length of Campaign to see if length of time affects success rate.
-- Pledged/Goal Ratio vs. Parent Category or Subcategory could give some info on viewer demand.
+- Creating a Outcome Percentages vs. Length of Campaign comparison to see if length of campaign affects success rate could be useful.
+- Creating a Pledged/Goal Ratio vs. Parent Category *or* Subcategory comparison could give some useful info on format popularity.
+- Perhaps creating a Average Donation vs. Parent Category *or* Subcategory comparison could give some useful info on category demand and viewer income.
