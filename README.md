@@ -30,13 +30,13 @@ After initializing the dataset, I created a pivot table to focus on important da
 
 I then created the chart below using Excel's *Pivot Chart* tool. 
 
-![Figure 1: Theater Outcomes by Launch Date](Theater_Outcomes_by_Launch_Date.png)
+![Figure 1: Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch_Date.png)
 
 
 ### Analysis of Outcomes Based on Goals
 By grouping the number of each fundraising outcome within a range of goal amounts, the playwright could gain a etter understanding of whether she needs to reconsider her current budget before starting her campaign. After creating a new sheet and using the COUNTIF() formula to count each play fundraiser outcome within varying goal ranges, I calulated the percentage of the total number of play campaigns for each goal range that were successful, failed, or were canceled in three new columns. I then plotted these three columns aginst the goal ranges:
 
-![Figure 2: Outcomes Based on Goals](Outcomes_Based_on_Goals.png)
+![Figure 2: Outcomes Based on Goals](Outcomes_vs_Goals.png)
 
 I also noticed that, given that no plays were canceled, the canceled line remains at 0% for each goal range. This is not necessarily a problem in my case, but if significantly more plays *were* canceled, the chart would be a lot less helpful for our dear playwright. Failure means that a goal was not hit, and success means the goal was hit. However, cancellation does not necessarily mean that the reason for ceasing the campaign was financial... Fortunately our data did not have this problem, or else a deeper investigation would have been necessary.
 
