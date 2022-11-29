@@ -30,7 +30,7 @@ After initializing the dataset, I created a pivot table to focus on important da
 
 I then created the chart below using Excel's *Pivot Chart* tool. 
 
-![Figure 1: Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch_Date.png)
+![Figure 1: Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
