@@ -28,13 +28,13 @@ After initializing the dataset, I created a pivot table to focus on important da
 
 ![Table 1: Theater Outcomes - Launch Date Pivot Table](Launch_Pivot.png)
 
-I then created the chart in Figure 1 using Excel's *Pivot Chart* tool. 
+I then created the chart in Figure 1 (below) using Excel's *Pivot Chart* tool. 
 
 ![Figure 1: Theater Outcomes by Launch Date](Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
-By grouping the number of each fundraising outcome within a range of goal amounts, the playwright could gain a better understanding of whether she needed to reconsider her current budget before starting the campaign. After creating a new sheet and using the COUNTIF() formula to count each play fundraiser outcome within varying goal ranges, I calulated the percentage of the total number of play campaigns for each goal range that were successful, failed, or were canceled in three new columns. I then plotted these three columns aginst the goal ranges:
+By grouping the number of each fundraising outcome within a range of goal amounts, the playwright could gain a better understanding of whether she needed to reconsider her current budget before starting the campaign. After creating a new sheet and using the COUNTIF() formula to count each play fundraiser outcome within varying goal ranges, I calulated the percentage of the total number of play campaigns for each goal range that were successful, failed, or were canceled in three new columns. I then plotted these three columns aginst the goal ranges (Figure 2, below):
 
 ![Figure 2: Outcomes Based on Goals](Outcomes_vs_Goals.png)
 
